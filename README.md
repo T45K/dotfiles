@@ -1,41 +1,41 @@
-# Ignore Gradle build output directory
+\# Ignore Gradle build output directory
 build
 
-# Java
+\# Java
 *.class
 *.jar
 *.war
 *.ear
 
-# Eclipse
+\# Eclipse
 .project
 .classpath
 .settings
 
-# Idea
+\# Idea
 .idea
 *.iml
 *.iws
 *.ipr
 
-# OS
+\# OS
 Thumbs.db
 .DS_Store
 
-# Gradle
+\# Gradle
 .gradle
 !build.gradle
 !gradle-wrapper.jar
 
-# Maven
+\# Maven
 target
 
-# Build
+\# Build
 out
 build
 bin
 
-# Other
+\# Other
 *.log
 *.swp
 *.bak
