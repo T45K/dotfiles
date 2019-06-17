@@ -1,0 +1,17 @@
+// enable to give running argument
+run {
+    if (project.hasProperty('args')) {
+        args project.args.split('\\s+')
+    }
+}
+
+// enble to include libs with generating jar
+jar {
+  // Specify App's entry point
+  manifest {
+    attributes "Main-Class": "foo.bar"
+  }
+  from { (configurations.runtime).collect { it.isDirectory() ? it : zipTree(it) } } {
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
+  }
+}
