@@ -5,7 +5,7 @@ run {
     }
 }
 
-// enble to include libs with generating jar
+// enable to include libs with generating jar
 jar {
   // Specify App's entry point
   manifest {
