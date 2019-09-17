@@ -1,0 +1,11 @@
+[alias]
+    br = branch
+    st = status
+    co = checkout
+    cb = "!f () { git checkout -b $1; };f"
+    cm = checkout master
+    del = "!f () { git branch -D $1; };f"
+    delete-all-merged-branch = "git checkout master; git branch --merged | egrep -v 'master' | xargs git branch -d"
+    damb = delete-all-merged-branch
+    alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
+    re = git reset --soft HEAD~
