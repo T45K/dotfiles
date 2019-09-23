@@ -3,7 +3,7 @@
     st = status
     co = checkout
     cb = "!f () { git checkout -b $1; };f"
-    cm = "!f () { git checkout master; git pull };f"
+    cm = "!f () { git checkout master; git pull; };f"
     del = "!f () { git branch -D $1; };f"
     delete-all-merged-branch = "!f () { git cm; git branch --merged | egrep -v 'master' | xargs git branch -d; } ;f"
     damb = delete-all-merged-branch
