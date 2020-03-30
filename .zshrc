@@ -21,3 +21,14 @@ $ '
 
 # only mac os
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+# jEnv
+# mac os
+export JENV_ROOT="$HOME/.jenv"
+if [ -d "${JENV_ROOT}" ]; then
+  export PATH="$JENV_ROOT/bin:$PATH"
+  eval "$(jenv init -)"
+fi
+# linux os
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
