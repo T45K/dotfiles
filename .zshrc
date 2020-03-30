@@ -16,7 +16,7 @@ zstyle ':vcs_info:*' formats "%b"
 setopt prompt_subst
 # prompt
 PROMPT='
-%~ @${vcs_info_msg_0_} 
+%m: %~ @${vcs_info_msg_0_} 
 $ '
 
 # only mac os
