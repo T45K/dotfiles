@@ -8,6 +8,8 @@
     delete-all-merged-branch = "!f () { git cm; git branch --merged | egrep -v 'master' | xargs git branch -d; } ;f"
     damb = delete-all-merged-branch
     alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
+	trans = "!f () { git add .; git commit -m $1; git push; };f"
+	t = trans
     
 [fetch]
     prune = true
