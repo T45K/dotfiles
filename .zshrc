@@ -32,3 +32,13 @@ fi
 # linux os
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# git
+alias gcm='git cm'
+alias gco='git co'
+alias gpl='git pull'
+alias gps='git push'
+alias ga='git add'
+alias gst='git status'
+alias gbr='git br'
+alias gct='git commit -m'
