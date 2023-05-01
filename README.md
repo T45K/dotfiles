@@ -1,41 +1,8 @@
-\# Ignore Gradle build output directory<br>
-build<br>
-<br>
-\# Java<br>
-*.class<br>
-*.jar<br>
-*.war<br>
-*.ear<br>
-<br>
-\# Eclipse<br>
-.project<br>
-.classpath<br>
-.settings<br>
-<br>
-\# Idea<br>
-.idea<br>
-*.iml<br>
-*.iws<br>
-*.ipr<br>
-<br>
-\# OS<br>
-Thumbs.db<br>
-.DS_Store<br>
-<br>
-\# Gradle<br>
-.gradle<br>
-!build.gradle<br>
-!gradle-wrapper.jar<br>
-<br>
-\# Maven<br>
-target<br>
-<br>
-\# Build<br>
-out<br>
-build<br>
-bin<br>
-<br>
-\# Other<br>
-*.log<br>
-*.swp<br>
-*.bak<br>
+# dotfiles
+
+1. copy `first.sh` from GitHub web to your local env.
+2. `sh first.sh`
+3. register `~/.ssh/id_ed25519.pub` with GitHub.
+4. `git clone git@github.com:T45K/dotfiles.git`
+5. `cd dotfiles`
+6. `sh second.sh`

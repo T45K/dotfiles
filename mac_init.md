@@ -23,6 +23,9 @@
 ### Keyboard Shortcuts -> Modifier Keys
 - Caps Lock key -> Controll
 
+### Keyboard Shortcuts -> Function Keys
+- Use F1, ... -> on
+
 ### Keyboard Shortcuts -> Spotlight
 - Show Spotlight search -> off
 - Sho Finder search window -> off
@@ -34,6 +37,9 @@
 ### Sound Effects
 - Play sound on startup
 - Play user interface soundeffects
+
+## Desktop & Dock
+- Automatically hide and show the Dock -> on
 
 ## Terminal
 
