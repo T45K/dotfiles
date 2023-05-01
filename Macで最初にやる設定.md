@@ -26,6 +26,11 @@
 ### Input Sources -> Edit -> Japanese Romaji
 - Live Conversion -> off
 
+## Sound
+### Sound Effects
+- Play sound on startup
+- Play user interface soundeffects
+
 ## Terminal
 
 ```bash
