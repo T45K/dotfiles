@@ -21,3 +21,6 @@
 
 ### Keyboard Shortcuts -> Modifier Keys
 - Caps Lock key -> Controll
+
+### Input Sources -> Edit -> Japanese Romaji
+- Live Conversion -> off
