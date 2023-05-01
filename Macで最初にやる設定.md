@@ -18,6 +18,7 @@
 - Key repeat rate -> fastest
 - Delay until repeat -> shortest
 - Press earth icon key to -> Do nothing
+- Keyboard brightness -> off
 
 ### Keyboard Shortcuts -> Modifier Keys
 - Caps Lock key -> Controll
