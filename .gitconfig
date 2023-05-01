@@ -10,6 +10,13 @@
     alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
 	trans = "!f () { git add .; git commit -m $1; git push; };f"
 	t = trans
-    
+	cp = cherry-pick
+
 [fetch]
     prune = true
+[core]
+	autocrlf = input
+	editor = vim
+[push]
+	autoSetupRemote = true
+	autoSetupRemote = true
