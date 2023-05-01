@@ -1,8 +1,0 @@
-// java ファイルの総行数を求める
-find . -type f -name "*.java" | xargs cat | wc -l
-
-// java ファイルから特定のワードを見つける
-find . -type f -name "*.java" | xargs cat | grep hoge
-
-// java ファイルから特定のワードをファイル名つきで見つける
-find . -type f -name "*.java" | xargs grep "" | grep hoge
