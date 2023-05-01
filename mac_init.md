@@ -40,6 +40,7 @@
 
 ## Desktop & Dock
 - Automatically hide and show the Dock -> on
+- Automatically hide and show the menu bar -> Never 
 
 ## Terminal
 
