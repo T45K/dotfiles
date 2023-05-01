@@ -24,3 +24,9 @@
 
 ### Input Sources -> Edit -> Japanese Romaji
 - Live Conversion -> off
+
+## Terminal
+
+```bash
+ssh-keygen -t ed25519
+```
