@@ -23,6 +23,10 @@
 ### Keyboard Shortcuts -> Modifier Keys
 - Caps Lock key -> Controll
 
+### Keyboard Shortcuts -> Spotlight
+- Show Spotlight search -> off
+- Sho Finder search window -> off
+
 ### Input Sources -> Edit -> Japanese Romaji
 - Live Conversion -> off
 
