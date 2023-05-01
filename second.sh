@@ -14,5 +14,3 @@ cp .gitconfig ~/.gitconfig
 
 git config --global user.name T45K
 git config --global user.email tasktas@gmail.com
-
-
