@@ -28,7 +28,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export PATH="$JENV_ROOT/bin:$PATH"
 eval "$(jenv init -)"
 
-alias rm='trash -F'
+alias rm='mv2trash'
 
 alias k=kubectl
 compdef __start_kubectl k
