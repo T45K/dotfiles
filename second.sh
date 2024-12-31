@@ -11,3 +11,6 @@ cp -r karabiner ~/.config/
 
 cp .zshrc ~/.zshrc
 cp .gitconfig ~/.gitconfig
+
+curl -L https://raw.githubusercontent.com/dankogai/osx-mv2trash/master/bin/mv2trash > /usr/local/bin/mv2trash
+chmod a+x /usr/local/bin/mv2tarsh
