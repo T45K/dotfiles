@@ -1,15 +1,11 @@
-[user]
-	name = T45K
-	email = tasktas9@gmail.com
-
 [alias]
     br = branch
     st = status
     co = checkout
     cb = "!f () { git checkout -b $1; };f"
-    cm = "!f () { git checkout master; git pull; };f"
+    cm = "!f () { git checkout $(git symbolic-ref refs/remotes/origin/HEAD | cut -f4 -d'/'); git pull; };f"
     del = "!f () { git branch -D $1; };f"
-    delete-all-merged-branch = "!f () { git cm; git branch --merged | egrep -v 'master' | xargs git branch -d; } ;f"
+    delete-all-merged-branch = "!f () { git cm; git branch --merged | egrep -v $(git symbolic-ref refs/remotes/origin/HEAD | cut -f4 -d'/') | xargs git branch -d; } ;f"
     damb = delete-all-merged-branch
     alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
 	trans = "!f () { git add .; git commit -m $1; git push; };f"
@@ -24,3 +20,6 @@
 [push]
 	autoSetupRemote = true
 	autoSetupRemote = true
+[user]
+	name = T45K
+	email = tasktas9@gmail.com
