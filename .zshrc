@@ -51,5 +51,10 @@ alias gf='git fetch'
 alias gmom='git merge origin/master'
 
 alias f=fleet
+alias i=idea
 alias d=docker
 alias dc=docker compose
+
+alias ll='ls -al'
+
+alias gw='./gradlew'
