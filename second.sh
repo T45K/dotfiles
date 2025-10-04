@@ -5,7 +5,7 @@ brew bundle --global
 
 sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
-jenv add $(brew --prefix)/opt/openjdk@17
+jenv add $(brew --prefix)/opt/openjdk@25
 
 cp -r karabiner ~/.config/
 
